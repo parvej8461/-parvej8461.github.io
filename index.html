@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parvej Akhter - Data Science Portfolio</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0 }
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; color: #333; background: #f5f5f5 }
+        
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px }
+        
+        header { 
+            text-align: center; 
+            padding: 2rem; 
+            background: #2c3e50;
+            color: white;
+            margin-bottom: 2rem;
+        }
+        
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 1rem;
+        }
+        
+        .project-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        h2 { color: #2c3e50; margin-bottom: 1.5rem }
+        
+        .badge {
+            display: inline-block;
+            padding: 0.25rem 0.5rem;
+            background: #3498db;
+            color: white;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            margin: 0.2rem;
+        }
+        
+        a { color: #3498db; text-decoration: none }
+        a:hover { text-decoration: underline }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Parvej Akhter</h1>
+        <p>Data Scientist | Machine Learning Engineer</p>
+        <p>📧 parvejakhter2303@outlook.com | 📱 (+91) 6262319449</p>
+        <p>
+            <a href="https://github.com/parvej8461" target="_blank">GitHub</a> | 
+            <a href="https://linkedin.com/in/parvejakhter" target="_blank">LinkedIn</a>
+        </p>
+    </header>
+
+    <div class="container">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+            
+            <!-- Time Series Forecasting -->
+            <div class="project-card">
+                <h3>Stock Price Forecasting (ARIMA)</h3>
+                <p>Time series analysis of JPMorgan Chase stock prices using ARIMA modeling</p>
+                <div class="badges">
+                    <span class="badge">Python</span>
+                    <span class="badge">ARIMA</span>
+                    <span class="badge">Statistical Analysis</span>
+                </div>
+                <p>🏆 Reduced forecast error by 23% through parameter optimization</p>
+                <a href="https://github.com/parvej8461/Time_Series_Foreasting" target="_blank">View Project →</a>
+            </div>
+
+            <!-- Legal Document Analyzer -->
+            <div class="project-card">
+                <h3>Legal Document Analyzer (NLP)</h3>
+                <p>LLM-powered tool for legal document analysis with MLflow integration</p>
+                <div class="badges">
+                    <span class="badge">NLP</span>
+                    <span class="badge">Python</span>
+                    <span class="badge">MLflow</span>
+                </div>
+                <p>🔍 Features: Summarization, key point extraction, issue flagging</p>
+                <a href="https://github.com/parvej8461/Legal_document_analyzer-using-LLM" target="_blank">View Project →</a>
+            </div>
+
+            <!-- Health Insurance Risk Classification -->
+            <div class="project-card">
+                <h3>Health Insurance Risk Model</h3>
+                <p>Ensemble learning comparison for insurance premium optimization</p>
+                <div class="badges">
+                    <span class="badge">XGBoost</span>
+                    <span class="badge">LightGBM</span>
+                    <span class="badge">Hyperparameter Tuning</span>
+                </div>
+                <p>📈 Achieved 95% F1-score with LightGBM</p>
+                <a href="https://github.com/parvej8461/Machine-learning-Project" target="_blank">View Project →</a>
+            </div>
+
+            <!-- Multilingual Text Classification -->
+            <div class="project-card">
+                <h3>Multilingual BERT Classifier</h3>
+                <p>Cross-lingual text classification supporting 15 languages</p>
+                <div class="badges">
+                    <span class="badge">BERT</span>
+                    <span class="badge">PyTorch</span>
+                    <span class="badge">XNLI Dataset</span>
+                </div>
+                <p>🌍 70% validation accuracy across multiple languages</p>
+                <a href="https://github.com/parvej8461/Bert_Model" target="_blank">View Project →</a>
+            </div>
+
+            <!-- HealthGPT -->
+            <div class="project-card">
+                <h3>AI Nutritionist (Gemini Pro Vision)</h3>
+                <p>Food image analysis for calorie estimation using Google's AI</p>
+                <div class="badges">
+                    <span class="badge">Computer Vision</span>
+                    <span class="badge">Streamlit</span>
+                    <span class="badge">Generative AI</span>
+                </div>
+                <p>📸 Image-based nutritional analysis system</p>
+                <a href="https://github.com/parvej8461/Health_gpt" target="_blank">View Project →</a>
+            </div>
+
+            <!-- Ride-Sharing Predictions -->
+            <div class="project-card">
+                <h3>Ride-Sharing Predictive Models</h3>
+                <p>XGBoost and Random Forest models for transportation analytics</p>
+                <div class="badges">
+                    <span class="badge">XGBoost</span>
+                    <span class="badge">Time Series</span>
+                    <span class="badge">Feature Engineering</span>
+                </div>
+                <p>🚖 96% recall for booking cancellation prediction</p>
+                <a href="https://github.com/parvej8461/Predictive_Modelling" target="_blank">View Project →</a>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
